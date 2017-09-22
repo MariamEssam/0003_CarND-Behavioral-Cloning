@@ -7,6 +7,12 @@ The project steps are the following:
 * Train & Test Model
 * Conclusion
 
+[//]: # (Image References)
+
+[image1]: ./images/1.png "Image1 Before Preprocessing"
+[image2]: ./images/2.png "Image1 After Preprocessing"
+[image3]: ./images/1.png "Image2 Before Preprocessing"
+[image4]: ./images/2.png "Image2 After Preprocessing"
 ---
 
 # **Data Collection**
@@ -22,5 +28,18 @@ I tried to use different data to generalize the model so I drived the car in a c
 
 # **Data Preprocessing**
 
-After collecting data I start my first step and that was to preprocess the data first I have cropped the image by **((60,20),(0,0))** I cropped the image for both  ```model.py ``` and ```drive.py``` , also I coberted the colors from RGB to YUV after certain reference.
+After collecting data I start my first step and that was to preprocess the data first I have cropped the image by **((60,20),(0,0))** I cropped the image for both  ```model.py ``` and ```drive.py``` , also I converted the colors from RGB to YUV after certain reference.
+**Images below for before and after the preprocessing**
+
+![alt text][image1] ![alt text][image2]
+
+![alt text][image3] ![alt text][image4]
+
+---
+
+# **Model Architecture**
+
+
+
+
 
