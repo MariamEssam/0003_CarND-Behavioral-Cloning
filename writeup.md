@@ -13,6 +13,8 @@ The project steps are the following:
 [image2]: ./images/2.png "Image1 After Preprocessing"
 [image3]: ./images/1.png "Image2 Before Preprocessing"
 [image4]: ./images/2.png "Image2 After Preprocessing"
+[image5]: ./images/nVidia_model.png "NVIDIA CNN Model"
+
 ---
 
 # **Data Collection**
@@ -39,7 +41,9 @@ After collecting data I start my first step and that was to preprocess the data 
 
 # **Model Architecture**
 
+![alt text][image5]
 
+The model used is that of NVIDIA 
 
 
 
