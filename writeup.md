@@ -34,14 +34,37 @@ After collecting data I start my first step and that was to preprocess the data 
 **Images below for before and after the preprocessing**
 
 <img src="./images/1.png?raw=true" width="400px"> <img src="./images/2.png?raw=true" width="400px">
-
+<img src="./images/3.png?raw=true" width="400px"> <img src="./images/4.png?raw=true" width="400px">
 ---
 
 # **Model Architecture**
 
-![alt text][image5]
+<img src="./images/nVidia_model.png?raw=true" width="400px">
 
-The model used is that of NVIDIA 
+NVIDIA Model is used it is composed of the following layers
+
+| Layer         		|    
+|:---------------------:|
+| Convolution 5x5     	| 
+| RELU					|
+| Convolution 5x5     	| 
+| RELU					|
+| Convolution 5x5     	| 
+| RELU					|
+| Convolution 5x5     	| 
+| RELU					|
+| Convolution 5x5     	| 
+| RELU					|
+| Flatten layer	      |
+| Fully connected		|
+| Fully connected		|
+| Fully connected		|
+| Fully connected		|
+| Dropout	(rate=0.5)| 
+| Fully connected		|
+
+
+
 
 
 
