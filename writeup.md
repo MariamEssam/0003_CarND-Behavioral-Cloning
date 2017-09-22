@@ -33,9 +33,9 @@ I tried to use different data to generalize the model so I drived the car in a c
 After collecting data I start my first step and that was to preprocess the data first I have cropped the image by **((60,20),(0,0))** I cropped the image for both  ```model.py ``` and ```drive.py``` , also I converted the colors from RGB to YUV after certain reference.
 **Images below for before and after the preprocessing**
 
-![alt text][image1] ![alt text][image2]
+<img src="./images/1.png?raw=true" width="400px">
 
-![alt text][image3] ![alt text][image4]
+<img src="./images/2.png?raw=true" width="400px">
 
 ---
 
