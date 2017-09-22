@@ -22,4 +22,5 @@ I tried to use different data to generalize the model so I drived the car in a c
 
 # **Data Preprocessing**
 
-After collecting data I start my first step and that was to preprocess the data first I have cropped the image by **((60,20),(0,0))** I cropped the image for both  ```sh model.py ``` and ```sh drive.py``` .
+After collecting data I start my first step and that was to preprocess the data first I have cropped the image by **((60,20),(0,0))** I cropped the image for both  ```model.py ``` and ```drive.py``` , also I coberted the colors from RGB to YUV after certain reference.
+
