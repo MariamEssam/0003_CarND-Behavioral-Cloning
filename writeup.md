@@ -63,8 +63,14 @@ NVIDIA Model is used it is composed of the following layers
 | Dropout	(rate=0.5)| 
 | Fully connected		|
 
+---
+
+# **Train & Test Model**
+
+The Data is splited to be 80% for training and 20% for validation, it is shuffled then used. I have used only 5 epochs to avoid model overfitting more over I used dropout layer also to avoid the overfitting.
 
 
 
+# **Conclusion**
 
-
+Well selected data and preprocess them then with NVIDIA model and setting paramters are my way followed to make the driving one lap success.
